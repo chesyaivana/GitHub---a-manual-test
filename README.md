@@ -53,3 +53,18 @@ This project covers three main modules:
 | 11 | TC11         | Update full name with valid data | Positive | Full name updated                                  | AsExpected       | ✅ Passed  | -                              |
 | 12 | TC12         | Try saving empty name field      | Negative | Name not updated                                   | AsExpected       | ✅ Passed  | -                              |
 | 13 | TC13         | Update profile picture           | Positive | Profile picture updated                            | ❌ Not AsExpected | ⚠️ Failed | Delay ±3 minutes before update |
+
+
+## 📆 Execution Details
+
+Date of Execution: 7 October 2025
+Executed by: Chesya Ivana Sitorus
+Testing Status: 12 Test Cases Passed, 1 Failed (TC13 – Profile Picture Delay)
+
+
+## 🧠 Key Findings
+
+1. Login functionality works correctly across all test scenarios.
+2. Input validation functions properly for empty fields.
+3. Navigation and logout features perform as expected.
+4. One issue found: profile picture updates take approximately 3 minutes to appear after upload.
