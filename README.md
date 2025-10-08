@@ -35,3 +35,21 @@ This project covers three main modules:
 - Update full name with valid data
 - Attempt to save an empty name field
 - Update profile picture
+
+## 🧾 Test Summary
+
+| No | Test Case ID | Test Scenario                    | Type     | Expected Result                                    | Actual Result    | Status    | Notes                          |
+| -- | ------------ | -------------------------------- | -------- | -------------------------------------------------- | ---------------- | --------- | ------------------------------ |
+| 1  | TC01         | Verify login form display        | Positive | Username box & login button appear                 | AsExpected       | ✅ Passed  | -                              |
+| 2  | TC02         | Login with valid credentials     | Positive | Successfully logged in and redirected to dashboard | AsExpected       | ✅ Passed  | -                              |
+| 3  | TC03         | Login with wrong password        | Negative | Login fails                                        | AsExpected       | ✅ Passed  | -                              |
+| 4  | TC04         | Login with unregistered username | Negative | Login fails                                        | AsExpected       | ✅ Passed  | -                              |
+| 5  | TC05         | Login with empty username        | Negative | Login fails                                        | AsExpected       | ✅ Passed  | -                              |
+| 6  | TC06         | Login with empty password        | Negative | Login fails                                        | AsExpected       | ✅ Passed  | -                              |
+| 7  | TC07         | Verify dashboard elements        | Positive | Dashboard page displayed                           | AsExpected       | ✅ Passed  | -                              |
+| 8  | TC08         | Navigate to another page         | Positive | Project page displayed                             | AsExpected       | ✅ Passed  | -                              |
+| 9  | TC09         | Access dashboard without login   | Negative | Access denied                                      | AsExpected       | ✅ Passed  | -                              |
+| 10 | TC10         | Logout                           | Positive | Redirected to login page                           | AsExpected       | ✅ Passed  | -                              |
+| 11 | TC11         | Update full name with valid data | Positive | Full name updated                                  | AsExpected       | ✅ Passed  | -                              |
+| 12 | TC12         | Try saving empty name field      | Negative | Name not updated                                   | AsExpected       | ✅ Passed  | -                              |
+| 13 | TC13         | Update profile picture           | Positive | Profile picture updated                            | ❌ Not AsExpected | ⚠️ Failed | Delay ±3 minutes before update |
