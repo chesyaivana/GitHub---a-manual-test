@@ -22,7 +22,6 @@ This project covers three main modules:
 
 1. Login Module
 - Verify the presence of username and password input fields, and the login button
-- Test login functionality with valid and invalid credentials
 - Test scenarios with empty username or password fields
 
 2. Dashboard Module
